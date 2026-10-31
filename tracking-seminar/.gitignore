@@ -1,0 +1,50 @@
+# Секреты и локальные настройки
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+*.ipynb_checkpoints
+
+# Данные и артефакты обучения
+data/
+runs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+cm.png
+confusion-matrix.json
+
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
+mlflow.db-wal
+mlflow.db-shm
+mlflow_server.log
+
+# Weights & Biases
+wandb/
+
+# Comet
+.cometml-runs/
+.cometml-runs-*
+
+# ОС и редакторы
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

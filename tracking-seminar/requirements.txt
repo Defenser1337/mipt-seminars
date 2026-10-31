@@ -1,0 +1,26 @@
+# PyTorch ставьте отдельно под свою платформу (CPU/GPU):
+#   CPU: pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#   GPU: см. https://pytorch.org/get-started/locally/
+# Если torch уже установлен, pip просто проверит, что версия подходит.
+torch>=2.2
+torchvision>=0.17
+
+# TensorBoard
+tensorboard>=2.16
+
+# MLflow 3.x: ноутбук использует log_model(name=...) и run.outputs
+mlflow>=3.0,<4
+
+# W&B
+wandb>=0.17
+
+# Comet
+comet_ml>=3.40
+
+# Остальное
+scikit-learn>=1.4
+matplotlib>=3.8
+pandas>=2.2
+numpy>=1.26
+ipykernel>=6.29
+psutil>=5.9
