@@ -23,4 +23,5 @@ matplotlib>=3.8
 pandas>=2.2
 numpy>=1.26
 ipykernel>=6.29
+jupyterlab>=4.0
 psutil>=5.9

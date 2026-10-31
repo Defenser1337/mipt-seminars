@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# Временные файлы ноутбука
+gc_demo.txt
+
+# Секреты и локальные настройки
+.env
+.env.*
+!.env.example
+
+# ОС и редакторы
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
