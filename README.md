@@ -6,7 +6,7 @@ Seminar materials on Python internals and ML engineering.
 
 | Directory | Topic |
 |---|---|
-| [`tracking-seminar`](tracking-seminar/) | Experiment tracking with TensorBoard, MLflow, Weights & Biases, and Comet: notebook, talk notes, and cleanup tooling |
+| [`tracking-seminar`](tracking-seminar/) | Experiment tracking with TensorBoard, MLflow, Weights & Biases, and Comet: notebook and cleanup tooling |
 | [`py-gc-seminar`](py-gc-seminar/) | Python garbage collection: reference counting, cycles, generations, weak references, and leak diagnostics |
 
 ## Usage

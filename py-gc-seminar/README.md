@@ -10,7 +10,6 @@
 | Файл | Назначение |
 |---|---|
 | `garbage_collector_python.ipynb` | ноутбук с примерами и экспериментами |
-| `garbage_collector_python_talk.md` | тезисы доклада и вопросы для защиты |
 | `images_garbage_collector_python/` | иллюстрации, которые вставляет ноутбук |
 | `requirements.txt` | зависимости для запуска Jupyter (сам семинар — только stdlib) |
 
